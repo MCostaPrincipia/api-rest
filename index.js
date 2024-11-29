@@ -29,7 +29,7 @@ app.get('/', (req, res) => {
     
 })
 
-const DB_USER = process.abort.env.DB_USER
+const DB_USER = process.env.DB_USER
 const DB_PASSWORD = encodeURIComponent(process.env.DB_PASSWORD)
 
 mongoose
